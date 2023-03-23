@@ -62,7 +62,11 @@
       </div>
       <h3>If you are interested in sponsoring S.W.A.T click here!</h3>
       <div style="width:40%;margin:50px auto">
-        <button type="button" class="sponsorbutton" onclick = "alert('A google form will pop up, follow the directions on it');window.open().location.href = 'https://docs.google.com/document/d/1VEb9YRd7_hHW43UIydbwloamts32HE631c_PpNeYQ9k/edit?usp=sharing';"><p style="font-size:40px">Sponsor Us!</p></button>
+        <button type="button" class="sponsorbutton" onclick = "alert('A google form will pop up, follow the directions on it');window.open().location.href = 'https://forms.gle/BUpCR9KNgTg96KZz5';"><p style="font-size:40px">Sponsor Us!</p></button>
+      </div>
+      <h3>If you want a S.W.A.T. Demo, Click here</h3>
+      <div style="width:40%;margin:50px auto">
+        <button type="button" class="Demobutton" onclick = "alert('A google form will pop up, follow the directions on it');window.open().location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSctW8fjM7Tqj7K-MHMvmUK0GtHaT4yRO_oQ4gNHwRu6dsfACg/viewform';"><p style="font-size:40px">Sign up for Demos!</p></button>
       </div>
       <br>
       <!-- Future table for sponsors style definetly going to change -->
@@ -117,6 +121,13 @@
 
     </body>
     <!-- Secret Functionality -->
+    <script>
+      $(document).on('keydown', function(key){
+        if(key.keyCode == 74){
+          $("#passwordbox").show()
+        }
+      })
+    </script>
     <script>
       $('#passwordbox').hide();
       var Utility = Utility || {};
